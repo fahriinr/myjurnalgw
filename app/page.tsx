@@ -1,9 +1,10 @@
-import { Button } from "@/components/ui/button";
-
-export default function Home() {
+import Home from "./home/page";
+export default function Page() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <Button>Test Me</Button>
+    <div className="min-h-screen">
+      <main>
+        <Home />
+      </main>
     </div>
   );
 }
